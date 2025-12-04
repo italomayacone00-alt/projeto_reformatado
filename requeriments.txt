@@ -1,0 +1,28 @@
+# Core
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.30
+alembic==1.13.2
+psycopg2-binary==2.9.9    # PostgreSQL
+python-dotenv==1.0.1
+
+# Autenticação
+Flask-JWT-Extended==4.6.0
+Flask-Login==0.6.3
+bcrypt==4.1.3
+
+# Documentação API
+flasgger==0.9.7.1
+
+# Frontend (se usar renderização com Flask)
+Flask-Bootstrap==3.3.7.1
+
+# Testes
+pytest==8.3.2
+pytest-cov==5.0.0
+
+# Qualidade / Dev
+black==24.4.2
+flake8==7.1.0
+isort==5.13.2
+pre-commit==3.8.0
